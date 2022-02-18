@@ -1,0 +1,80 @@
+html {
+  background-color: #a3a3a3;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 48px 0 64px;
+  background-color: lightpink;
+  max-width: 1092px;
+  height: 100vh;
+}
+
+header {
+  margin: 0;
+  padding: 64px 0;
+  background-color: lightskyblue;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+  background-color: yellow;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+}
+
+main {
+  font-size: 0;
+  background-color: turquoise;
+}
+
+img {
+  margin: 0 16px 16px 0;
+  padding: 0;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  img {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    padding: 0 24px 0 32px;
+  }
+
+  header {
+    padding: 32px 0;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  img {
+    width: 90%;
+  }
+}
